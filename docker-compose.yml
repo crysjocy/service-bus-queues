@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  scoria.api:
+    image: ${DOCKER_REGISTRY-}scoriaapi
+    build:
+      context: .
+      dockerfile: service-bus-queues/Dockerfile

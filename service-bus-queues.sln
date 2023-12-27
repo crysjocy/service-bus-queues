@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scoria.API", "service-bus-queues\Scoria.API.csproj", "{9B3E4EDA-EB8E-4F56-8F94-6DF954295628}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScoriaDataProcessor", "ScoriaDataProcessor\ScoriaDataProcessor.csproj", "{D9F0CBD2-BFD0-4200-9D9D-D8B7CBCAE651}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scoria.Data", "Scoria.Data\Scoria.Data.csproj", "{D0FBCF5F-0E03-4664-B80D-4A1405A46207}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{EDD7E57E-89A2-4F55-9B9D-661590C48B19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B3E4EDA-EB8E-4F56-8F94-6DF954295628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B3E4EDA-EB8E-4F56-8F94-6DF954295628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B3E4EDA-EB8E-4F56-8F94-6DF954295628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B3E4EDA-EB8E-4F56-8F94-6DF954295628}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9F0CBD2-BFD0-4200-9D9D-D8B7CBCAE651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F0CBD2-BFD0-4200-9D9D-D8B7CBCAE651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F0CBD2-BFD0-4200-9D9D-D8B7CBCAE651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9F0CBD2-BFD0-4200-9D9D-D8B7CBCAE651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0FBCF5F-0E03-4664-B80D-4A1405A46207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0FBCF5F-0E03-4664-B80D-4A1405A46207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0FBCF5F-0E03-4664-B80D-4A1405A46207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0FBCF5F-0E03-4664-B80D-4A1405A46207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDD7E57E-89A2-4F55-9B9D-661590C48B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDD7E57E-89A2-4F55-9B9D-661590C48B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDD7E57E-89A2-4F55-9B9D-661590C48B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDD7E57E-89A2-4F55-9B9D-661590C48B19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7EA424F-4502-49F8-ACAF-C00E494E4F6D}
+	EndGlobalSection
+EndGlobal

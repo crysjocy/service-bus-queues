@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "ScoriaDataProcessor": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7211"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 32618,
+      "useSSL": false
+    }
+  }
+}
